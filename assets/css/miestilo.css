@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* body {
+    background-color: #eaf2e3;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.centrado {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+} */
+
+/* Encabezado de la pagina */
+header {
+    background-color: #69bd45;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+/* Encabezado - Imagen logo */
+.header-top {
+    background-image: url("../../assets/img/AgroSoft.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.header-top h1 {
+    color: #2f8247;
+}
+.header-top h4 {
+    color: #2f8247;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+.header-logo {
+    width: 120px;
+    height: auto;
+}
+
+header h1 {
+    padding: 10px;
+}
+
+
+
+/* Barra de navegacion */
+nav {
+    background-color: #4caf50;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #2f8247;
+    
+}
+
+/* Cuerpo de la pagina */
+section {
+    padding: 20px;
+}
+
+img {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border: 3px solid #69bd45;
+    border-radius: 10px;
+}
+
+
+/* Carrusel de "Acerca de" */
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Tarjetas de "Acerca de" */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(0, 0, 0, 0.2);
+}
+
+
+/* Pie de pagina */
+footer {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+.footer-content {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px;
+}
+
+/* Formulario */
+.form {
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    padding: 5px 7px;
+    margin: 1.5em;
+}

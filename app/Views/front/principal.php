@@ -12,7 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <!-- CSS -->
-    <link rel="stylesheet" href="css/miestilo.css" />
+    <link rel="stylesheet" href="assets/css/miestilo.css" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -109,7 +109,7 @@
         </p>
         <!-- Imagen principal -->
         <picture>
-          <img src="assets/img/imagen_principal.jpg" alt="Joven sonriendo" />
+          <img src="assets/img/imagen_principal.jpg" alt="Hombre en el campo" />
         </picture>
         <p>
           Comprometidos con la sostenibilidad y la innovación, nuestro objetivo
@@ -124,9 +124,9 @@
     <!-- Pie de pagina -->
     <footer class="footer-content">
       <div class="footer-social">
-        <i class="fa-brands fa-square-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-twitter"></i>
+        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
       </div>
 
       <div class="footer-info">
