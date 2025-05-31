@@ -11,4 +11,28 @@ class Home extends BaseController
         echo view('front/principal');
         echo view('front/footer_view');
     }
+
+    public function registro()
+    {
+        echo view('front/head_view');
+        echo view('front/navbar_view');
+        echo view('front/registro_view');
+        echo view('front/footer_view');
+    }
+
+    public function productos()
+    {
+        echo view('front/head_view');
+        echo view('front/navbar_view');
+        echo view('front/productos_view');
+        echo view('front/footer_view');
+    }
+
+    public function login()
+    {
+        echo view('front/head_view');
+        echo view('front/navbar_view');
+        echo view('front/login_view');
+        echo view('front/footer_view');
+    }
 }

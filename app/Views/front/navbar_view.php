@@ -17,16 +17,16 @@
                 <a class="nav-link active" aria-current="page" href="principal">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de</a>
+                <a class="nav-link" href="<?= base_url('productos') ?>">Soluciones</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Quienes somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Registrate</a>
+                <a class="nav-link" href="<?= base_url('registro') ?>">Registrate</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Ya tengo cuenta</a>
+                <a class="nav-link" href="<?= base_url('login') ?>">Ya tengo cuenta</a>
               </li>
               
                 <ul class="dropdown-menu">
