@@ -20,10 +20,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-
-    <!-- Encabezado pagina principal -->
-    <header>
+  <header>
 
       <!-- Imagen Logo empresa -->
       <div class="header-top text-center text-white">
@@ -37,5 +34,8 @@
       </div>
 
       <!-- Barra de navegacion -->
-      
     </header>
+  <body>
+
+    <!-- Encabezado pagina principal -->
+    
