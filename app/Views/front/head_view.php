@@ -20,22 +20,22 @@
       rel="stylesheet"
     />
   </head>
-  <header>
-
-      <!-- Imagen Logo empresa -->
-      <div class="header-top text-center text-white">
-        <img
-          class="header-logo my-3"
-          src="assets/img/AgroSoft.png"
-          alt="Banner AgroSoft"
-        />
-        <h1>Bienvenido a AgroSoft Solutions</h1>
-        <h4>La solucion definitiva de tu campo</h4>
-      </div>
-
-      <!-- Barra de navegacion -->
-    </header>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+  
+        <!-- Imagen Logo empresa -->
+        <div class="header-top text-center text-white">
+          <img
+            class="header-logo my-3"
+            src="assets/img/AgroSoft.png"
+            alt="Banner AgroSoft"
+          />
+          <h1>Bienvenido a AgroSoft Solutions</h1>
+          <h4>La solucion definitiva de tu campo</h4>
+        </div>
+  
+        <!-- Barra de navegacion -->
+      </header>
 
     <!-- Encabezado pagina principal -->
     

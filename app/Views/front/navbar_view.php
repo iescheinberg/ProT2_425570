@@ -20,7 +20,7 @@
                 <a class="nav-link" href="<?= base_url('productos') ?>">Soluciones</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Quienes somos</a>
+                <a class="nav-link" href="<?= base_url('nosotros') ?>">Quienes somos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('registro') ?>">Registrate</a>

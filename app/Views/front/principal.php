@@ -1,4 +1,4 @@
-<main>
+<main class="flex-grow-1">
     <section class="centrado">
         <p>
             Somos una empresa especializada en el desarrollo de software para
