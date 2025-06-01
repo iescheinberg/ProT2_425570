@@ -20,7 +20,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="d-flex flex-column min-vh-100">
+  <body>
     <header>
   
         <!-- Imagen Logo empresa -->

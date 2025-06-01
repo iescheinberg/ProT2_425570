@@ -1,5 +1,5 @@
     <!-- Pie de pagina -->
-    <footer class="footer-content">
+    <footer class="footer-content py-4 fixed-bottom">
       <div class="footer-social">
         <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
         <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>

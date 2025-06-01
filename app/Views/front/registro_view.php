@@ -1,4 +1,4 @@
-<main">
+<main>
     <div class="form container d-flex justify-content-center bg-body">
         <form class="row g-3">
             <div class="col-md-6">
