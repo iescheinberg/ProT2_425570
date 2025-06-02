@@ -1,3 +1,4 @@
+<!-- Navbar -->
 <nav class="navbar navbar-expand-lg bg-seccess-tertiary">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -36,6 +37,7 @@
         </ul>
         </li>
       </ul>
+      <!-- Buscador -->
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
         <button class="btn btn-outline-success" type="submit">

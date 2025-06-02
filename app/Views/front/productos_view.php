@@ -1,3 +1,4 @@
+<!-- Pagina Soluciones -->
 <main class="container my-5">
     <!-- Carrusel de productos -->
     <h2 class="text-center mb-4">Soluciones Destacadas</h2>

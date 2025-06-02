@@ -1,4 +1,4 @@
-
+<!-- Formulario de Registro -->
 <main>
     <div class="container py-4">
         <form class="row g-3">
