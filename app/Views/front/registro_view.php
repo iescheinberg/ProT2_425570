@@ -29,16 +29,16 @@
                 <label for="inputZip" class="form-label">Codigo Postal</label>
                 <input type="text" class="form-control" id="inputZip" />
             </div>
-            <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck" />
-                    <label class="form-check-label" for="gridCheck">
-                        Check
-                    </label>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center">
-                <button type="submit" class="btn btn-success">Enviar</button>
+
+            <div class="d-flex mt-4" style="justify-content: center; gap: 1rem;">
+                <button type="reset" class="btn btn-outline-danger">
+                    <!-- <i class="fa-solid fa-trash"></i> -->
+                    Borrar
+                </button>
+                <button type="submit" class="btn btn-success">
+                    <!-- <i class="fa-solid fa-seedling" style="color: gree;"></i> -->
+                    Enviar
+                </button>
             </div>
         </form>
     </div>
