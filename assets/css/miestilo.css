@@ -1,3 +1,11 @@
+:root {
+    --color1: #ffdb78;
+    --color2: #fff787;
+    --color3: #0e2e63;
+    --color4: #0d6f6d;
+    --color5: #08ba84;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -27,7 +35,7 @@ html, body {
 
 /* Encabezado de la pagina */
 header {
-    background-color: #2f8247;
+    background-color: var(--color4);
     color: #fff;
     text-align: center;
     padding: 10px 0 0;
@@ -35,14 +43,14 @@ header {
 
 /* Encabezado - Imagen logo */
 .header-top {
-    background: linear-gradient(to bottom, #2f8247 0%, #69bd45 100%);
+    background: var(--color4);
     background-size: cover;
     background-position: center;
     color: white;
 }
 
 .header-top h1, h4 {
-    color: #043a13;
+    color: var(--color3);
 }
 .header-top h4 {
     margin: 0;
@@ -63,7 +71,7 @@ header {
 
 /* Barra de navegacion */
 nav {
-    background: linear-gradient(to bottom, #69bd45 0%, #2f8247 100%);
+    background: var(--color4);
     padding: 10px;
 }
 .logo{
@@ -99,7 +107,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #2f8247;
+    background-color: var(--color4);
     
 }
 
@@ -113,7 +121,7 @@ img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
-    border: 3px solid #69bd45;
+    border: 1px solid var(--color5);
     border-radius: 10px;
 }
 
