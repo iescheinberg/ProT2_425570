@@ -6,7 +6,8 @@ class Home extends BaseController
 {
     public function index()
     {
-        echo view('front/head_view');
+        $data['titulo'] = 'pagina principal';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/principal');
         echo view('front/footer_view');
@@ -14,7 +15,8 @@ class Home extends BaseController
 
     public function registro()
     {
-        echo view('front/head_view');
+        $data['titulo'] = 'registro';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/registro_view');
         echo view('front/footer_view');
@@ -22,7 +24,8 @@ class Home extends BaseController
 
     public function productos()
     {
-        echo view('front/head_view');
+        $data['titulo'] = 'productos';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/productos_view');
         echo view('front/footer_view');
@@ -30,7 +33,8 @@ class Home extends BaseController
 
     public function login()
     {
-        echo view('front/head_view');
+        $data['titulo'] = 'login';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/login_view');
         echo view('front/footer_view');
@@ -38,7 +42,8 @@ class Home extends BaseController
 
     public function nosotros()
     {
-        echo view('front/head_view');
+        $data['titulo'] = 'nosotros';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/quienes_view');
         echo view('front/footer_view');
