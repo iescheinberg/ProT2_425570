@@ -15,10 +15,11 @@ class Home extends BaseController
 
     public function registro()
     {
+        helper('form');
         $data['titulo'] = 'registro';
         echo view('front/head_view', $data);
         echo view('front/navbar_view');
-        echo view('front/registro_view');
+        echo view('front/registro');
         echo view('front/footer_view');
     }
 
