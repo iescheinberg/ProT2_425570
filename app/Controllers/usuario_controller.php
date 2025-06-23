@@ -50,5 +50,23 @@ class usuario_controller extends Controller {
             return redirect() ->route('login');
         }
     }
+    
+    public function verificar()
+    {
+        $usuarioIngresado = $this->request->getVar('usuario');
+        $pass = $this->request->getVar('pass');
+
+        $modelo = new usuario_Model();
+        $usuario = $modelo->where('usuario', $usuarioIngresado)->first();
+
+        if ($usuario && password_verify($pass, $usuario['pass'])) {
+            session()->set('usuario', $usuario['usuario']);
+            return redirect()->route('principal');
+        } else {
+            session()-> setFlashdata('error', 'Email o contraseña incorrectos');
+            return redirect()->route('login');
+        }
+
+    }
 
 }
