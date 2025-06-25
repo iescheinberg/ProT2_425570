@@ -4,8 +4,8 @@
     <div class="container py-4">
         <!-- Validación -->
         <?php if (session()->getFlashdata('error')): ?>
-            <div class="alert alert-danger text-center">
-                <?= session()->getFlashdata('error') ?>
+            <div class="alert alert-warning text-center">
+                <?= session()->getFlashdata('error'); ?>
             </div>
         <?php endif; ?>
         <!-- Formulario -->
@@ -19,7 +19,7 @@
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" />
+                <input type="password" class="form-control" id="pass" name="pass" />
             </div>
             <div class="text-center mt-3">
                 <button type="submit" class="btn btn-success">Aceptar</button>

@@ -25,6 +25,10 @@ class Home extends BaseController
 
     public function productos()
     {
+        if (!session()->has('usuario')) {
+            return redirect()->to(base_url('login'))->with('error', 'Debe iniciar sesión para acceder');
+        }
+
         $data['titulo'] = 'productos';
         echo view('front/head_view', $data);
         echo view('front/navbar_view');
@@ -43,6 +47,10 @@ class Home extends BaseController
 
     public function nosotros()
     {
+        if (!session()->has('usuario')) {
+            return redirect()->to(base_url('login'))->with('error', 'Debe iniciar sesión para acceder');
+        }
+
         $data['titulo'] = 'nosotros';
         echo view('front/head_view', $data);
         echo view('front/navbar_view');

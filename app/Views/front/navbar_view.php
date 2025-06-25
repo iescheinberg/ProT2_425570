@@ -37,13 +37,26 @@
         </ul>
         </li>
       </ul>
-      <!-- Buscador -->
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
-        <button class="btn btn-outline-success" type="submit">
-          Buscar
-        </button>
-      </form>
+      <!-- Bienvenida + Buscador -->
+      <div class="d-flex align-items-center">
+        <?php if (session()->has('usuario')): ?>
+          <span class="navbar-text text-white me-3">
+            👤 Bienvenido, <?= session('usuario'); ?>
+          </span>
+          <a href="<?= base_url('logout') ?>" class="btn btn-outline-light btn-sm me-3">
+            Cerrar sesión
+          </a>
+        <?php endif; ?>  
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            Buscar
+          </button>
+        </form>
+
+      </div>
+
     </div>
   </div>
 </nav>

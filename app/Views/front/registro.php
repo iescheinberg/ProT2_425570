@@ -1,15 +1,17 @@
 <main>
     <div class="container py-4">
         <?php $validation = \Config\Services::validation(); ?>
+        
+        <!-- Validación -->
+        <?php if (session()->getFlashdata('error')): ?>
+            <div class="alert alert-warning text-center">
+                <?= session()->getFlashdata('error'); ?>
+            </div>
+        <?php endif; ?>
 
+        <!-- Formulario -->
         <form class="row g-3" method="post" action="<?= base_url('registro/guardar') ?>">
             <?= csrf_field(); ?>
-
-            <?php if (isset($validation)) : ?>
-                <div class="alert alert-danger">
-                    <?= $validation->listErrors(); ?>
-                </div>
-            <?php endif; ?>
 
             <div class="col-md-6">
                 <label for="nombre" class="form-label">Nombre</label>
