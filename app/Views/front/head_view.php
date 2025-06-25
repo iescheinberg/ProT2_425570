@@ -27,7 +27,7 @@
   
         <!-- Imagen Logo empresa -->
         <div class="header-top text-center text-white">
-          <h1>Bienvenido a AgroSoft Solutions</h1>
+          <h1>AgroSoft Solutions</h1>
           <h4>La solucion definitiva de tu campo</h4>
         </div>
   
